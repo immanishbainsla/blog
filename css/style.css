@@ -107,8 +107,11 @@ button[type="button"]:hover{
 	}
 }
 
-/*
+
 @media screen and (max-width: 520px){
-    
+    .blog-post-sm{
+        padding: 0 !important;
+        margin: 0 !important;
+    }
 }
-*/
+
