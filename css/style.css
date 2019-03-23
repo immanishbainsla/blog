@@ -67,15 +67,15 @@ body{
     transition: 0.2s;
 }
 
-button[type="button"]{
-    font-size: 1.7rem;
-    font-weight: 400;
-    padding: 8px !important;
-    border: 0.33rem solid white;
-}
-
-button[type="button"]:hover{
-    color: rgb(50, 50, 50) !important;
+code{
+        width: 99%;
+        background: #f7f7f7;
+        font-size: 1.1rem;  
+        display: inline-block;
+        margin: 0.9rem 0.3rem 0.9rem 0.3rem;
+        padding: 15px;
+        white-space: pre;
+        font-weight: lighter;
 }
 
 .blog-post-template{
@@ -101,6 +101,11 @@ button[type="button"]:hover{
 	justify-content: center;
 	flex-wrap: wrap;
 }
+
+.card-title{
+    font-size: 2rem;
+}
+
 @media (min-width: 768px) {
 	.navbar-nav {
 		float: none;
